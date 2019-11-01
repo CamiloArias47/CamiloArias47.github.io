@@ -1,0 +1,15 @@
+.bg-main{
+    background-color: #00897B;
+}
+
+.bg-second{
+    background-color: #00695c;
+}
+
+.bg-gray{
+    background-color: #fbfbfb;
+}
+
+.fullHeight{
+    height: 100%;
+}
