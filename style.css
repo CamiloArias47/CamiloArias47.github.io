@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     margin: 0;
     background-color: #f0f0f0;
@@ -106,6 +110,32 @@ body{
 .description-experience.column{
     flex-direction: column;
 }
+.personal-data {
+    padding-top: .6rem;
+}
+
+.personal-data ul{
+    list-style-type: none;
+    font-size: 1.4rem;
+    color: white;
+    padding-left: 1rem;
+}
+
+.personal-data ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.3rem 0;
+}
+
+.icon{
+    width: 45px;
+}
+
+.personal-data a{
+    color: white;
+}
 
 @media (min-width: 768px) {
     body{
@@ -118,6 +148,7 @@ body{
         box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.27);
         padding: 0;
         flex-direction: row;
+        margin-bottom: 3rem;
     }
 
     .colum1{
