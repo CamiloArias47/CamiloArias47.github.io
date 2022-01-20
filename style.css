@@ -101,6 +101,7 @@ body{
 .description-experience .descritipn-text ul{
     border-left: none;
     list-style-type: disc;
+    padding-left: 0.2rem;
 }
 
 .description-experience .img-conainer.full-img{
